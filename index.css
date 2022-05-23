@@ -1,0 +1,71 @@
+
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+body{
+    background-color: rgb(126, 114, 103);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.list{
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    border-color: black;
+    padding-right: 40px;
+}
+.lastguess{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    border-width: 1px;
+    border: solid;
+    list-style: none;
+    border-color: black;
+    background-color: rgba(240, 248, 255, 0.76);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.63);
+    
+}
+.guess{
+    margin: 0px;
+    box-shadow: 3px 4px 7px 1px rgba(0,0,0,0.63);
+    border-width: 1px;
+    border: solid;
+    background-color: rgba(240, 248, 255, 0.76);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 15pt;
+}
+#buttons{
+background-color: rgb(255, 196, 0);
+width: 100px;
+height: 40px;
+box-shadow: 3px 3px 4px 5px rgba(0,0,0,0.43);
+font-size: 15pt;
+font-weight: bold;
+margin-right: 20px;
+}
+#reset{
+background-color: rgb(1, 124, 206);
+
+width: 100px;
+height: 40px;
+box-shadow: 3px 3px 4px 5px rgba(0,0,0,0.43);
+font-size: 15pt;
+font-weight: bold;
+}
+.remaining{
+    font-size: 19pt;
+}
